@@ -1,0 +1,108 @@
+ body{
+      
+      font-family: tahoma;
+      background-image: url(b.jpg);
+      background-size: cover;
+      height: 90vh;
+      overflow: hidden;
+   }
+   
+   #customers-testimonials{
+      padding:20px 20;
+   }
+
+   .testimonial img{
+      max-width: 159px;
+      margin: 0 auto 0 auto;
+      border: 2px solid white;
+      padding: 5px;
+      margin-bottom: 13px;
+   }
+   .testimonial blockquote{
+      border:0;
+      font-family: tahoma;
+      font-size: italic;
+      color: white;
+      padding: 5px 110px;
+      position: relative;
+   }
+
+  
+   .testimonial  blockquote  p{
+    font-size: 18px;
+    }
+   .testimonial-author p{
+      left: 20px;
+      color: white;
+      font-size: 17px;
+   }
+   .testimonial-author p strong{
+      display:  block;
+   }
+   h3{
+      color: white;
+      text-transform: uppercase;
+   }
+
+
+
+/**{
+	margin: 0;
+	padding: 0;
+}
+/*-------Navigation-------*/
+#nav-bar{
+	position: sticky;
+	top:0;
+	z-index: 10;
+	background-color:white;
+}
+.navbar-brand img{
+height:110px;
+padding-left: 50px;
+}
+.navbar h3{
+font-family: Garamond;
+color:#0086b3;
+font-size:14px;
+    width: 500px;
+     margin-bottom: 12px;
+	margin-top: 10px;
+}
+.navbar h1{
+color :#595959;
+font-size: 35px;
+    width: 1000px;
+	height:60px;
+    margin-bottom: 0px;
+    margin-top: 18px;	
+}
+#active{
+	background-color:#81ecec;
+	color: white;
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+.navbar-nav li a{
+	float: right;
+	margin-right:10px;
+	text-align: left;
+	-webkit-transition-duration:0.3s;
+	transition-duration: 0.3s;
+}
+#nav-bar ul li a:hover{
+	color:#007bff!important;
+	border-bottom: 10px solid #0086b3;
+}
+.navbar{
+	background:#fff;
+}
+#navbar-toggler{
+	border:none!important;
+}
+.nav-link{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
